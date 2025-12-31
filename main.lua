@@ -1,5 +1,5 @@
 local function GetA()
-    local url = "https://raw.githubusercontent.com/TUO_UTENTE/TUO_REPO/main/a.lua"
+    local url = "https://raw.githubusercontent.com/AcelestuZ/Abcdefgh/main/a.lua"
     local success, result = pcall(function()
         return loadstring(game:HttpGet(url))()
     end)
